@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js"></script>
     <title>nobynobynoby.github.io</title>
     <style>
         body {
@@ -34,8 +35,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>nobynobynoby.github.io</h1>
-        <p>このページはGitHub Pagesのトップページです。<br>特に内容はありません。</p>
+        <h1>KANTAN-Play Firmware Update</h1>
+        <p>M5Stack Core3SEを使った楽器「KANTAN-Play」のファームウェアを更新します。<br>以下のボタンをクリックして、ブラウザからファームウェアをインストールしてください。</p>
+        <p style="color: #ff6b6b; font-weight: bold;">注意: このファームウェアは私家版（unofficial）です。</p>
+        <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
     </div>
 </body>
 </html>
