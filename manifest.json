@@ -1,7 +1,7 @@
 {
   "name": "KANTAN-Play Firmware",
   "version": "0.6.2",
-  "new_install_prompt_erase": false,
+  "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-S3",

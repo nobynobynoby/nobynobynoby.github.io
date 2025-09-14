@@ -35,10 +35,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>KANTAN-Play Firmware Update</h1>
-        <p>M5Stack Core3SEを使った楽器「KANTAN-Play」のファームウェアを更新します。<br>以下のボタンをクリックして、ブラウザからファームウェアをインストールしてください。</p>
+        <h1>KANTAN-Play Firmware Update (Unofficial)</h1>
+        <p>楽器「KANTAN-Play」のファームウェアを更新します。<br>以下のボタンをクリックして、ブラウザからファームウェアをインストールしてください。</p>
+        <div style="background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; padding: 16px; margin: 20px 0; color: #856404;">
+          <strong>⚠️ 重要な注意事項</strong><br>
+          ファームウェア更新時に「Erase device」のプロンプトが表示されますが、<br>
+          <strong style="color: #d63031;">チェックボックスは必ずオフ（チェックなし）のままNextをクリックしてください。</strong><br>
+          チェックをしてしまうと、すべての設定が初期化されます。
+        </div>
         <p style="color: #ff6b6b; font-weight: bold;">注意: このファームウェアは私家版（unofficial）です。</p>
         <p style="margin-top: 20px;"><a href="https://github.com/nobynobynoby/KANTAN_Play_core-nori-fork" target="_blank" style="color: #0066cc; text-decoration: none;">🔗 私家版ファームウェアのソースコード (GitHub)</a></p>
+        <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">ファームウェアの不具合報告や機能要望は、上記GitHubリポジトリのIssuesページまでお願いします。</p>
         <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
     </div>
 </body>
