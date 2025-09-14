@@ -1,7 +1,7 @@
 {
   "name": "KANTAN-Play Firmware",
-  "version": "1.0.0",
-  "new_install_prompt_erase": true,
+  "version": "0.6.2",
+  "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
@@ -9,7 +9,7 @@
       "parts": [
         {
           "path": "kanpre_Firmware/nori-fork/0.6.2_fork_20250913/bootloader.bin",
-          "offset": 4096
+          "offset": 0
         },
         {
           "path": "kanpre_Firmware/nori-fork/0.6.2_fork_20250913/partitions.bin",
